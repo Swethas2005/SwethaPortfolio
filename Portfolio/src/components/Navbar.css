@@ -1,0 +1,45 @@
+#navbar {
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    margin-bottom: 50px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+#logo-1 {
+    width: 120px;
+    height: 100%;
+}
+
+#logo-1:hover{
+    transition:  all 1s ease;
+    transform: scale(1.1);
+}
+
+#nav-ele {
+    display: flex;
+    gap: 40px;
+}
+
+#nav-ele p {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px 5px 10px 5px;
+    color: #000000;
+}
+
+#nav-ele a {
+    text-decoration: none;
+}
+
+#nav-ele p:hover {
+    border-bottom: 4px solid blue;
+    transition:  all 0.1s ease;
+
+}
